@@ -18,3 +18,5 @@ public class FeignErrorDecoder implements ErrorDecoder {
         return new CustomException(message, response.status(), errorCode.getErrorCode());
     }
 }
+
+//.decode eklenecek
