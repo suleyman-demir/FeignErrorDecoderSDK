@@ -1,9 +1,10 @@
 package com.sdkcourier.feignErrorDecoderSdk.exception;
 
+
 import lombok.Getter;
 
 /**
- * Özelleştirilmiş exception sınıfı.
+ * HttpClient tabanlı özel bir exception sınıfı.
  */
 @Getter
 public class CustomException extends RuntimeException {

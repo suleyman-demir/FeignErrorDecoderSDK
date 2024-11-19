@@ -1,8 +1,11 @@
 package com.sdkcourier.feignErrorDecoderSdk.exception;
 
+
+
+/**
+ * HTTP statü kodları ve özelleştirilmiş hata kodları için enum.
+ */
 public enum ErrorCode {
-    JSON_PROCESSING_ERROR(500, "JSON_PROCESSING_ERROR"),
-    REQUEST_ERROR(500, "REQUEST_ERROR"),
     BAD_REQUEST(400, "BAD_REQUEST"),
     UNAUTHORIZED(401, "UNAUTHORIZED"),
     FORBIDDEN(403, "FORBIDDEN"),
@@ -12,7 +15,6 @@ public enum ErrorCode {
 
     private final int statusCode;
     private final String errorCode;
-
 
     ErrorCode(int statusCode, String errorCode) {
         this.statusCode = statusCode;
