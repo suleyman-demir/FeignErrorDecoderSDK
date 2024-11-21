@@ -8,9 +8,6 @@ import org.springframework.http.HttpStatus;
 import java.util.Arrays;
 import java.util.Objects;
 
-/**
- * HTTP statü kodları ve özelleştirilmiş hata kodları için enum.
- */
 
 @RequiredArgsConstructor
 @Getter

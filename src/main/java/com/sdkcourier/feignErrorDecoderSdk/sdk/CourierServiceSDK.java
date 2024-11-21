@@ -10,9 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.concurrent.CompletableFuture;
 
-/**
- * SDK for Courier Service.
- */
+
 @Service
 @RequiredArgsConstructor
 public class CourierServiceSDK {
